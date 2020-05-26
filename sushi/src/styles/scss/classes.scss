@@ -1,0 +1,118 @@
+.r_classes{
+    color: #1f1f1f;
+    display: block;
+    height: 100vh;
+    padding-top: 10vh;
+    position: relative;
+    width: 100%;
+    
+    &__menu{
+        display: flex;        
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 7.5%;
+        width: 85%;
+        a{
+            color: #000;
+            font-size: 1.5vw;
+            font-weight: 500;
+            margin-left: 10%;
+            text-decoration: none;
+            width: 5vw;
+            &:hover{
+                font-weight: 600;
+            }
+        }
+        
+        .r_menu__sub{        
+            align-items: flex-end;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 40%;
+        }
+    }
+    &__logo {
+        font-size: 7vw;
+        font-weight: 600;
+        line-height: 5vw;
+    }
+    &__banner{
+        padding: 20vh 7.5% 0;
+    }
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.r_classe{
+    background: #192121;
+    border-radius: 27px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    width: 19%;
+    &:hover{
+        transform: scale(1.1);
+        transition: 300ms ease-out;
+    }
+
+    .r_st_item{
+        align-items: flex-end;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 6vw 6% 0;
+        position: relative;
+        >img{
+            margin-bottom: 10px;
+            width: 27%;
+        }
+    }
+    .r_profile{
+        max-width: 70%;
+        img{
+            left: 0;
+            position: absolute;
+            top: -3vw;
+            width: 70%;
+        }
+        span{
+            background-color: rgba(85, 85, 85, 0.61);
+            border-radius: 10px;
+            color: #acacac;
+            cursor: pointer;
+            font-size: 0.6vw;
+            font-weight: 600;
+            padding: 5px 10px;
+            &:first-of-type{
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+    strong, figcaption{
+        padding: 0 6%;
+    }
+    strong{
+        display: block;
+        color: #fff;
+        font-size: 1.4vw;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    figcaption{
+        color: #b3b3b3;
+        display: inline-block;
+        font-size: 0.9vw;
+        margin-bottom: 30px;
+    }
+    .r_cta{        
+        color: #ff5858;
+        cursor: pointer;
+        font-size: 0.9vw;
+        padding-left: 3px;
+    }
+}

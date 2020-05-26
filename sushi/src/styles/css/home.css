@@ -1,0 +1,81 @@
+.r_main {
+  background-color: #1f1f1f;
+  color: #fff;
+  display: block;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+.r_main__banner {
+  height: 100vh;
+  background-image: url("../../images/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.r_main .r_text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.r_main .r_text strong {
+  display: block;
+  font-size: 7vw;
+  font-weight: 600;
+}
+.r_main .r_text u {
+  text-decoration: none;
+  position: relative;
+  width: auto;
+}
+.r_main .r_text u:after {
+  content: "";
+  background-color: #fe6d6d;
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+.r_main .r_text span {
+  font-size: 1.4vw;
+  font-weight: 300;
+  margin: 10px 0 12vh;
+}
+.r_main .r_cta {
+  bottom: 15%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.r_main .r_cta .r_button {
+  background-color: #ff5454;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 7px 20px;
+  text-decoration: none;
+}
+.r_main .r_cta .r_scroll_button {
+  background-image: url("../../images/arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px;
+  position: relative;
+}
+
+/*# sourceMappingURL=home.css.map */
